@@ -33,6 +33,7 @@ jobs:
         run: |	
           node fqxs.js
         env:
+          TZ: Asia/shanghai
           FQXSURL: ${{ secrets.FQXSURL }}
           FQXS: ${{ secrets.FQXS }}
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
