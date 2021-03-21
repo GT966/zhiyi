@@ -1,4 +1,4 @@
-name: sync-ZhiYi-N-script
+name: sync-ZhiYi-N
 on:
   schedule:
     - cron: '0 16,4 * * *'
